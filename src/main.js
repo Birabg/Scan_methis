@@ -15,44 +15,44 @@ function renderGenerator() {
   app.innerHTML = `
     <div class="page generator-page">
       <header class="topbar">
-        <div class="brand"><span class="brand-cross">✝</span> JESUS CONNECTION</div>
-        <span class="badge">FREE WI-FI EXPERIENCE</span>
+        <div class="brand"><span class="brand-cross">✝</span> የኢየሱስ ግንኙነት</div>
+        <span class="badge">ነፃ ዋይ-ፋይ ልምድ</span>
       </header>
 
       <main class="generator-shell">
         <section class="hero-copy">
-          <p class="eyebrow">SCAN • CONNECT • DISCOVER</p>
-          <h1>Create your<br><em>connection.</em></h1>
+          <p class="eyebrow">ስካን • ግንባታ • ፈልግ</p>
+          <h1>ግንኙነትዎን<br><em>ፍጠር።</em></h1>
           <p class="intro">
-            This QR code does one simple thing: when someone scans it,
-            they are taken to a beautiful message about Jesus.
+            ይህ QR ኮድ አንድ ቀላል ሥራን ያደርጋል፡ ሰው ያለውን ሲስካን፣
+            ወደ ስለ ኢየሱስ ጽቡቅ መልእክት ይወስዳል።
           </p>
 
           <div class="url-box">
-            <span>QR destination</span>
+            <span>QR መዳረሻ</span>
             <strong id="destination"></strong>
           </div>
 
           <div class="steps">
-            <div><b>01</b><span>Show this QR code</span></div>
-            <div><b>02</b><span>Let someone scan it</span></div>
-            <div><b>03</b><span>The Jesus message opens</span></div>
+            <div><b>01</b><span>ይህን QR ኮድን ያሳይ</span></div>
+            <div><b>02</b><span>ማንኛውም ያስካን ዘይቤ</span></div>
+            <div><b>03</b><span>የኢየሱስ መልእክት ይከፍታል</span></div>
           </div>
         </section>
 
         <section class="qr-card">
-          <div class="qr-label">FREE WI-FI</div>
+          <div class="qr-label">ነፃ ዋይ-ፋይ</div>
           <div class="qr-wrap">
             <canvas id="qr"></canvas>
           </div>
-          <p class="scan-text">SCAN TO CONNECT</p>
-          <p class="qr-note">Point your phone camera at the code</p>
-          <button id="previewBtn" class="primary-btn">Preview landing page <span>→</span></button>
+          <p class="scan-text">ለመግንባት ስካን ያድርጉ</p>
+          <p class="qr-note">የስልክዎን ካሜራ ወደ ኮዱ ይዘይቡ</p>
+          <button id="previewBtn" class="primary-btn">ገጹን ቀጥታ ይመልከቱ <span>→</span></button>
         </section>
       </main>
 
       <footer class="footer">
-        <span>Made to share a message.</span>
+        <span>ለመልእክት ማካፈል የተሰራ።</span>
         <span>✝</span>
       </footer>
     </div>
@@ -82,30 +82,30 @@ function renderLanding() {
       <main class="message-card">
         <div class="cross-mark">✝</div>
 
-        <p class="welcome">YOU'RE HERE</p>
+        <p class="welcome">አሁን እዚህ ነዎት</p>
 
         <div class="gold-line"></div>
 
         <h1>
-          The only connection<br />
-          that you need is<br />
-          <span>Jesus.</span>
+          የሚያስፈልገዎት የተወሰነ<br />
+          የተለየ ግንኙነት<br />
+          <span>ኢየሱስ ነው።</span>
         </h1>
 
         <p class="message">
-          Free Wi-Fi brought you here.<br />
-          Now take a moment to connect with Him.
+          ነፃ ዋይ-ፋይ ወደ እዚህ አመጣዎት።<br />
+          አሁን ትንሽ ጊዜ ይዞ ከእሱ ጋር ይገናኙ።
         </p>
 
         <div class="verse-card">
           <div class="quote-mark">“</div>
-          <p>I am the way, the truth, and the life.</p>
-          <span>John 14:6</span>
+          <p>እኔ መንገድና እውነትና ህይወት ነኝ።</p>
+          <span>ዮሐንስ 14:6</span>
         </div>
 
         <div class="bottom-mark">
           <span>✦</span>
-          <span>CONNECT WITH PURPOSE</span>
+          <span>በግንዛቤ ግንባታ</span>
           <span>✦</span>
         </div>
       </main>
